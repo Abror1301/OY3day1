@@ -1,0 +1,68 @@
+.lorem5 {
+  padding-top: 150px;
+}
+
+.lorem5_conteiner {
+  max-width: 716px;
+}
+
+.lorem5_title {
+  color: #828282;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.lorem5_text {
+  margin-top: 16px;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.lorem5_box {
+  max-width: 100%;
+  height: 1px;
+  flex-shrink: 0;
+  background: #C8C8C8;
+  margin: 24px 0;
+}
+
+.lorem5_caption {
+  margin: 40px 0;
+  color: #C1C1C1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.lorem5_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 16px;
+}
+
+.lorem5_btn {
+  padding: 20px 28px;
+  border-radius: 10px;
+  background-color: #828282;
+  margin-top: 48px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+.lorem5_form{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+@media screen and (max-width:600px) {
+  .lorem5_btn{
+    max-width: 100%;
+    width: 100%;
+  }
+  
+}

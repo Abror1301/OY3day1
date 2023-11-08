@@ -1,0 +1,51 @@
+.lorem4 {
+  padding-top: 150px;
+}
+
+.lorem4_conteiner {
+  max-width: 716px;
+  
+}
+
+.lorem4_title {
+  color: #828282;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.lorem4_text {
+  text-align: center;
+}
+.lorem4_card{
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.lorem4_cards {
+  width: 350px;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F3F3F3;
+  padding: 42px 27px;
+}
+
+
+
+.lorem4_name {
+  color: #828282;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+}
+@media screen and (max-width:800px) {
+  .lorem4_card {
+    flex-direction: column;
+  }
+}

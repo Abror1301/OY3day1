@@ -1,0 +1,74 @@
+.lorem3 {
+  padding-top: 150px;
+}
+
+.lorem3_title {
+  color: #828282;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.lorem3_box {
+  max-width: 676px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lorem3_text {
+  margin-bottom: 80px;
+}
+
+.lorem3_card {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.lorem_cards {
+  max-width: 350px;
+  text-align: center;
+}
+
+.lorem3_img {
+  margin-bottom: 32px;
+  flex-shrink: 0;
+}
+
+.lorem3_name {
+  color: #828282;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width:800px) {
+  .lorem3_title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .lorem3_name {
+    font-size: 22px;
+
+  }
+
+  .lorem3_card {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lorem3_img {
+    margin-top: 56px;
+  }
+  .lorem3_text {
+    margin-bottom: 0px;
+  }
+
+}

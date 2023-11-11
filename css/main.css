@@ -216,45 +216,49 @@ img {
 
 .lorem1_item {
   text-align: center;
-  margin-top: 24px;
+  border-bottom: 1px solid #C8C8C8;
+  flex-grow: 1;
 }
 
 .lorem1_list {
+  max-width: 730px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: start;
 }
 
-.lorem1_link {
+.lorem1_btn {
   color: #747474;
   text-align: center;
   font-size: 13px;
   font-weight: 600;
   line-height: 17px;
   letter-spacing: 1.5px;
+  background-color: transparent;
+  padding-bottom: 31px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.4s ease;
+  width: 100%;
+}
+.lorem1_btn:hover {
+  border-bottom: 4px solid #888;
+  padding-bottom: 4px solid transparent;
 }
 
-.lorem1_box2 {
-  width: 243px;
-  height: 1px;
-  flex-shrink: 0;
-  background-color: #C8C8C8;
-}
-
-.lorem1_box1 {
-  opacity: 0;
-  width: 243px;
-  border: 2px solid #888;
-  margin-top: 27px;
-}
-
-.lorem1_item:hover .lorem1_box1 {
-  opacity: 1;
-}
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 450px) {
   .lorem1_list {
     flex-direction: column;
+  }
+  .lorem1_item {
+    width: 100%;
+  }
+  .lorem1_text {
+    margin-bottom: 24px;
+  }
+  .lorem1_btn {
+    padding: 24px 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -419,7 +423,7 @@ img {
   margin-top: 72px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -443,6 +447,9 @@ img {
 @media screen and (max-width: 800px) {
   .lorem4_card {
     flex-direction: column;
+  }
+  .lorem4_cards {
+    width: 311px;
   }
 }
 .lorem5 {

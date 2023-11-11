@@ -23,7 +23,7 @@
   margin-top: 72px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 .lorem4_cards {
@@ -48,4 +48,8 @@
   .lorem4_card {
     flex-direction: column;
   }
+  .lorem4_cards {
+   width: 311px;
+  }
 }
+
